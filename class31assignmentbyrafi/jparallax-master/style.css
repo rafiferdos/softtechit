@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+.layers {
+	position: relative;
+	height: 325px;
+	width: 978px;
+	overflow: hidden;
+}
+.single-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+
+.box {
+	height: 100px;
+	width: 100px;
+	background: black;
+	border-radius: 10px;
+}

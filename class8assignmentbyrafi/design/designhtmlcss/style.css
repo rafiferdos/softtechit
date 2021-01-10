@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+.header-area {
+    padding-bottom: 5%;
+    background: black;
+    color: white;
+}
+.main-area .first-left {
+    background: blue;
+    width: 50%;
+    padding-bottom: 30%;
+    float: left;
+    overflow: hidden;
+}
+.main-area .second-top {
+    background: red;
+    width: 50%;
+    padding-bottom: 15%;
+    overflow: hidden;
+}
+.main-area .second-bottom-left {
+    background: rgb(19, 180, 19);
+    width: 25%;
+    padding-bottom: 14%;
+    float: left;
+    overflow: hidden;
+}
+.main-area .second-bottom-right {
+    background: yellow;
+    width: 25%;
+    padding-bottom: 14%;
+    overflow: hidden;
+}
+.main-area .third-right {
+    background: darkred;
+    color: white;
+    padding-bottom: 10%;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+.main-area .third-left {
+    background: white;
+    color: black;
+    padding-bottom: 10%;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.footer-area {
+    background: grey;
+padding-bottom: 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

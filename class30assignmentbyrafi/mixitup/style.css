@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #fbc531;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.filter-nav {
+    display:  block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.filter-nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.filter-nav ul li {
+    float: left;
+    padding: 20px 40px ;
+}
+
+.filter-nav ul li a {
+    color: azure;
+    font-size: 30px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.filter-nav ul li a:hover{
+    font-size: 45px;
+    color: darkblue;
+}
+
+.mix {
+    float: left;
+    margin: 5px;
+}

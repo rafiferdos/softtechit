@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: consolas;
+}
+
+.box-slide {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(#e84118, #c23616);
+    color: whitesmoke;
+    font-size: large;
+    text-align: center;
+}
+
+.slide1 {
+    font-size: 30px;
+}

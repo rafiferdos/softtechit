@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.first-section,
+.second-section,
+.third-section,
+.forth-section,
+.fifth-section {
+  height: 600px;
+  background-position: left bottom;
+}
+
+.first-section {
+  background-image: url(images/1.jpg);
+}
+
+.second-section {
+  background-image: url(images/2.jpg);
+}
+
+.third-section {
+  background-image: url(images/3.jpg);
+}
+
+.forth-section {
+  background-image: url(images/4.jpg);
+}
+
+.fifth-section {
+  background-image: url(images/5.jpg);
+}

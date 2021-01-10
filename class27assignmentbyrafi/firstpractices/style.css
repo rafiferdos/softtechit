@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background: #f7f1e3;
+}
+
+.meter-box {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 50%;
+    background: linear-gradient(#cd6133, #ffb142);
+}

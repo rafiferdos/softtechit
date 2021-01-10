@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    border: 1px solid black;
+    background: cornsilk;
+    text-align: center;
+}
+.heading {
+    background: darkgoldenrod;
+}
+.heading,
+h1 {
+    margin: 0;
+    padding: 1%;
+    font-size: 50px;
+}

@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+    background: #FFFFFF;
+}
+
+.container {
+    width: 90%;
+}
+
+.header-area {
+    background-color: #3a5795;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-area .logo-area {
+    width: 30%;
+    float: left;
+    padding-left: 20%;
+}
+
+.header-area .login-area {
+    overflow: hidden;
+    width: 50%;
+}
+
+.login-area form {
+    float: right;
+    padding-right: 28%;
+}
+
+.login-area input,
+.login-area label {
+    display: block;
+}
+
+#keep {
+    float: left;
+}
+
+.login-area label {
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-area input {
+    margin: 5px 0 2px 0;
+    border: 1px solid #1d2a5b;
+    padding: 2px;
+}
+
+.login-area a {
+    color: #8CACC3;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login-area .username-area {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .password-area {
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .submit-area {
+    overflow: hidden;
+    float: right;
+}
+
+.username-area label:last-child {
+    margin-top: 3px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 2px;
+    color: #8CACC3;
+}
+
+.login-area a:hover {
+    text-decoration: underline;
+}
+
+.submit-area input {
+    background: #5a74a8;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.upper-image-text p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*****Main Area*****/
+
+.main-area {
+    background: linear-gradient(#FFFFFF, #D3D8E8);
+    font-family:  sans-serif;
+}
+
+.upper-image-text {
+    width: 50%;
+    float: left;
+    padding-bottom: 12%;
+    color: #0E385F;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.signup-area {
+    width: 40%;
+    overflow: hidden;
+    color: #4b4b4b;
+    padding-bottom: 40px;
+}
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #c1cada;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.signup-area input[type="text"]:nth-child(1) {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.signup-area input[type="text"]:nth-child(2) {
+    width: 48%;
+    overflow: hidden;
+}
+.birthday-select {
+    overflow: hidden;
+}
+
+.birthday-select select {
+    padding: 6px 3px;
+    border: 1px solid #ddedfc;
+    float: left;
+    margin: 5px 0;
+}
+.signup-area a {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 11px;
+}
+.signup-area p {
+    font-size: 11px;
+}
+.signup-area input[type="submit"]{
+    background: lenear-gradient(#83c46c, #588944);
+    border: 1px solid #588a44;
+    color: #ffffff;
+    padding: 5px 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.signup-area input[type="submit"]{
+    background: lenear-gradient( #588944, #83c46c);
+}
+.create-page {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+/***** Footer-area *****/
+
+.footer-area {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 10%;
+}
+.footer-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-area ul li {
+    float: left;
+}
+
+.footer-top,
+.footer-bottom {
+    overflow: hidden;
+    padding: 10px 0;
+}
+.footer-top ul li a{
+    margin-right: 12px;
+    color: #9297a0;
+}
+
+
+.footer-bottom {
+    width: 80%;
+    overflow: hidden;
+}
+.footer-bottom ul li {
+    width: 10%;
+    margin-bottom: 10px;
+}
+.footer-bottom ul li a {
+    color: #9297a0;
+}
+.copyright {
+    color: #9297a0;
+    float: left;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .header-area .logo-area {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-area .login-area {
+        width: 100%;
+    }
+
+    .login-area form {
+        float: none;
+        width: 368px;
+        margin: auto;
+    }
+    .upper-image-text {
+        width: 100%;
+        float: none;
+    }
+    .signup-area {
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 400px) {
+    .login-area form {
+        width: auto;
+    }
+
+    .login-area .username-area {
+        float: none;
+    }
+
+    .login-area .password-area {
+        float: none;
+    }
+
+    .login-area input [type="text"],
+    .login-area input [type="password"] {
+        width: 100%;
+    }
+}

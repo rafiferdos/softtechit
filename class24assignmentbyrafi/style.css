@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background: linear-gradient(#F44336, #FF9800) no-repeat;
+    color: aliceblue;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.btn {
+    padding: 30px 50px;
+    background: linear-gradient(#ff793f, #ffb142);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.button2 {
+    padding: 50px ;
+}
+
+.btn:hover {
+    font-size: 25px;
+    cursor: pointer;
+    background: linear-gradient(#ffb142, #ff793f);
+}
+

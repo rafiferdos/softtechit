@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	background: #60a3bc;
+	font-family: sans-serif;
+}
+.header-area h1 {
+	background: #3c6382;
+	color: #FFFFFF;
+	margin: 0;
+	padding-bottom: 2%;
+	padding-top: 1%;
+	text-align: center;
+	font-size: 40px;
+}
+.volume {
+	height: 100px;
+	width: 300px;
+	background: red;
+	position: fixed;
+	top: 8%;
+	right: 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+.middle-area {
+	
+}
+.footer-area {
+	background: black;
+	color: #FFFFFF;
+	overflow: hidden;
+	padding-bottom: 2%;
+}
+.image {
+	display: block;
+	float: left;
+	margin: 0 5px 0 5px;
+}
+.headline {
+	background: navy;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	color: white;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap part 2</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <button type="button" class="btn btn-default btn-lg">glyphicon-flash&caret
+
+      <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> <span class="caret"></span>
+
+    </button>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+      Dropdown
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="dropdown-header">This is dropdown-header</li>
+      <li><a href="#">home page</a></li>
+      <li><a href="#">action page</a></li>
+      <li><a href="#">gaming page</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">other's page</a></li>
+      <li class="disabled"><a href="#">disabled link</a></li>
+    </ul>
+  </div>
+  <div class="button-toolbar" role="group">
+    <div class="btn-group btn-group-lg" role="toolbar" aria-labelledby="toolbar">
+
+      <a href="#" class="btn btn-default">1</a>
+      <a href="#" class="btn btn-default">2</a>
+      <a href="#" class="btn btn-default">3</a>
+      <a href="#" class="btn btn-default">4</a>
+      <a href="#" class="btn btn-default">5</a>
+    </div>
+    <div class="btn-group btn-group-sm" role="toolbar">
+      <a href="#" class="btn btn-default">6</a>
+      <a href="#" class="btn btn-default">7</a>
+      <a href="#" class="btn btn-default">8</a>
+      <a href="#" class="btn btn-default">9</a>
+      <a href="#" class="btn btn-default">10</a>
+    </div>
+    <div class="btn-group" role="toolbar">
+
+      <a href="#" class="btn btn-default">for more <span class="caret"></span></a>
+      <a href="#" class="btn btn-default disabled">disabled</a>
+    </div>
+  </div>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default">Left</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default">Middle</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default">Right</button>
+    </div>
+  </div>
+  <!-- Split button -->
+  <div class="btn-group">
+    <button type="button" class="btn btn-danger">Action</button>
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      <span class="caret"></span>
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">@</span>
+    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon2">@example.com</span>
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon">$</span>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <span class="input-group-addon">.00</span>
+  </div>
+  <label for="basic-url">Your vanity URL</label>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <span class="input-group-addon">
+          <input type="checkbox" aria-label="...">
+        </span>
+        <input type="text" class="form-control" aria-label="...">
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+    <div class="col-lg-6">
+      <div class="input-group">
+        <span class="input-group-addon">
+          <input type="radio" aria-label="...">
+        </span>
+        <input type="text" class="form-control" aria-label="...">
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+  <!-- jQuery -->
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Action <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+        <input type="text" class="form-control" aria-label="...">
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+    <div class="col-lg-6">
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="...">
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Action <span class="caret"></span></button>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+  <ul class="nav nav-pills">
+    <li role="presentation"><a href="#">Home</a></li>
+    <li role="presentation" class="active"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Job details</a></li>
+    <li role="presentation" class="disabled"><a href="#">Status</a></li>
+    <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"
+        role="button">Rate <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">home</a></li>
+        <li><a href="#">home 2</a></li>
+        <li><a href="#">home 3</a></li>
+      </ul>
+    </li>
+  </ul>
+
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ferdos Pro</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Blog</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Html</a></li>
+            <li><a href="#">Css</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li class="disabled"><a href="#">javascript</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li><a href="#">World</a></li>
+    <li class="active">Current</li>
+  </ol>
+
+
+  <ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+
+
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+
+  <h1>this is heading 1<span class="label label-default">h1</span></h1>
+
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+  </ul>
+
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos consequuntur quod totam fuga
+        error odio porro iste eos itaque culpa accusantium, mollitia autem cum quisquam quo illo reprehenderit
+        voluptatibus.</p>
+      <p>
+        <a class="btn btn-primary btn-lg">Learn more</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4 col-lg-2">
+        <a href="#" class="thumbnail">
+          <img src="image.jpg" alt="image">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="image.jpg" alt="image">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus inventore vero mollitia quis facilis
+            repudiandae suscipit a aliquam sunt autem.</p>
+          <p><a href="#" class="btn btn-primary" role="button">More</a> <a href="#" class="btn btn-default"
+              role="button">Go</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-success" role="alert"><strong>lorem ipsum</strong> dolor sit amet consectetur adipisicing
+    elit. Tempore, iusto?</div>
+  <div class="alert alert-info" role="alert"><strong>lorem ipsum</strong> dolor sit amet consectetur adipisicing elit.
+    Tempore, iusto?</div>
+  <div class="alert alert-warning" role="alert"><strong>lorem ipsum</strong> dolor sit amet consectetur adipisicing
+    elit. Tempore, iusto?</div>
+  <div class="alert alert-danger" role="alert"><strong>lorem ipsum</strong> dolor sit amet consectetur adipisicing elit.
+    Tempore, iusto?</div>
+
+  <div class="container">
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+        style="width: 20%;">
+        <span class="sr-only"> 20% Complete</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" style="width: 35%">
+        <span class="sr-only">35% Complete (success)</span>
+      </div>
+      <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+        <span class="sr-only">20% Complete (warning)</span>
+      </div>
+      <div class="progress-bar progress-bar-danger" style="width: 10%">
+        <span class="sr-only">10% Complete (danger)</span>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos aut qui aliquam magni suscipit dolorem quo
+      asperiores id quae voluptate vero nihil, laborum corporis iste ipsa a officiis architecto ex beatae sapiente
+      blanditiis, veritatis ducimus laudantium? Officia fuga, assumenda illum magni dolor error, recusandae, sit
+      voluptatibus nulla quia sapiente.
+    </div>
+    <div class="panel-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum?</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

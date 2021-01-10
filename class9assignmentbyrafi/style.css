@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    background: #E1E4EF;
+}
+.container {
+    width: 90%;
+}
+.header-area {
+    background-color: #3a5795;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-area .logo-area {
+    width: 30%;
+    float: left;    
+}
+.header-area .login-area {
+    overflow: hidden;
+    width: 70%;
+}
+
+.login-area form {
+    float: right;
+}
+.login-area input, 
+.login-area label {
+    display: block;
+}
+.login-area input [id="keep"] {
+    float: left;
+}
+.login-area label {
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-area input {
+    margin: 5px 0 2px 0;
+    border: 1px solid #1d2a5b; 
+    padding: 2px;
+}
+.login-area a {
+    color: #8CACC3;
+    font-size: 12px;
+    text-decoration: none;
+}
+.login-area .username-area {
+    float:left;
+    margin-right: 15px;
+}
+.login-area .password-area {
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+.login-area .submit-area {
+    overflow: hidden;
+    float: right;
+}
+.username-area label:last-child {
+    margin-top: 3px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 2px;
+    color: #8CACC3;
+}
+.login-area a:hover {
+    text-decoration: underline;
+}
+.submit-area input {
+    background: #5a74a8;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.main-area {
+    float: right;
+    margin-right: 22%;
+    overflow: hidden;
+}
+.main-area h1 {
+    color:#333333;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-area p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.main-area li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .header-area .logo-area {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }   .header-area .login-area {
+    width: 100%;
+    }
+    .login-area form {
+        float: none;
+        width: 368px;
+        margin: auto;
+    }
+}
+@media all and (max-width: 400px) {
+    .login-area form {
+        width: auto;
+    }
+    .login-area .username-area {
+        float: none;
+    }
+    .login-area .password-area {
+        float: none;
+    }   
+    .login-area input [type="text"],
+    .login-area input [type="password"] {
+    width: 100%;
+    .}
+}

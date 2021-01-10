@@ -1,0 +1,28 @@
+h1{
+	color: #95a5a6;
+	background: blue;
+}
+body {
+	background: black;
+}
+form {
+	color:#44bd32;
+}
+input {
+	color:blue;
+}
+ol {
+	color:yellow;
+	font-size:32px;
+}
+ul{
+	color:white;
+	font-size:20px;
+}
+p {
+	color: red;
+}
+table{
+	color: white;
+	background-color: grey;
+}	

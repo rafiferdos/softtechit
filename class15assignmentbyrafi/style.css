@@ -1,0 +1,237 @@
+/*-----------------------------------------------------------------------
+
+    Template Name: Phototime
+    Template URL: http://www.phototime.com
+    Description: Photo related template
+    Author: Muhammad Rafi Ferdos
+    Author URL: http://www.ferdospro.com
+    License: GNU General Public License version 3.0
+    License URL: http://www.gnu.org/license/gpl-3.0.html
+    Version: 1.0
+
+------------------------------------------------------------------------
+
+    1. Typography
+    2. Header area
+        2.1 Menu area
+        2.2 Welcome text
+        2.3 Social Media
+    3. Getting started
+    4. Community area
+    5. Subscribe area
+    6. Download area
+    7. Footer area
+
+-------------------------------------------------------------------------*/
+
+/*---------------- 1. Typography ----------------*/
+
+@font-face {
+    font-family: "gothamroundedbold";
+    src: url(fonts/gothamroundedbold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "gothamroundedbook";
+    src: url(fonts/gothamroundedbook.woff) format('woff');
+}
+
+@font-face {
+    font-family: "gothamroundedmedium";
+    src: url(fonts/gothamroundedmedium.woff) format('woff');
+}
+
+body,
+p {
+    font-family: "gothamroundedbook";
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 45px;
+    text-transform: uppercase; 
+    letter-spacing:5px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #16a086;
+    font-family: "gothamroundedbook";
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-size: 13px;
+    font-family: "gothamroundedbook";
+    letter-spacing: 2px;
+}
+
+p {
+    color: #aeafb1;
+    letter-spacing: 1px;
+    font-size: 10px;
+    line-height: 2em;
+}
+
+strong {
+    color: #666666;
+}
+
+/*---------------- 2. Header Area ------------------*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.header-area {
+    background: url(images/header-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 25px 0; 
+}
+
+/*---------------- 2.1 Menu Area ------------------*/
+
+.menu-area,
+ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area,
+ul li {
+    display: inline;
+    margin: 0 24px;
+}
+
+.menu-area, 
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    padding: 7px 0;
+    transition: .3s;
+}
+
+
+.menu-area,
+ul .logo img{
+    margin: 0 40px;
+    width: 50px;
+    height: auto;
+}
+
+.menu-area,
+ul .logo a:hover {
+    border-bottom: none;
+}
+
+.menu-area,
+ul .logo a {
+    border-bottom: none;
+}
+
+.menu-area, 
+ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/*---------------- 2.2 Welcome text ------------------*/
+
+.welcome-text {
+    margin-top: 210px;
+    overflow: hidden;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background: #16a086;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: x-small;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #16a086;
+    border: 1px solid #16a086; 
+}
+
+.welcome-text,
+h5 {
+    text-transform: lowercase;
+}
+
+/*---------------- 2.3 Social Media -------------------*/
+
+.social-media {
+    overflow: hidden;
+    margin-top: 210px;
+}
+
+.social-media,
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media,
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 0
+}
+
+/*---------------- 3. Getting Started -------------------*/
+
+.gettingstarted-area {
+    background: #f5f6f8;
+    overflow: hidden;
+    max-height: 310px;
+    background-image: url(images/mobile.png)
+}
+
+.gettingstarted-area .text-area {
+    padding: 50px 0;
+}
+
+.getitngstarted-area .image-area, 
+img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.text-area,
+p {
+    margin-bottom: 30px;
+}
+

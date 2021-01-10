@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui regular;
+}
+.introduction-area{
+    background: rgb(35, 35, 46);
+}
+.logo-area{
+    text-align: center;
+    padding-top: 5%
+}
+.heading-area h1{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+}
+.paragraph-area{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15%;
+}
+.downarrow-area{
+    text-align: center;
+}
+.knowaboutme-area{
+    text-align: center;
+    padding: 7% 30%;
+    font-size: 24px;
+    color: #3d3d3d;
+}
+.heading-area h2{
+    color: #3d3d3d;
+    font-size: 45px;
+    text-align: center;
+}
+.box-area{
+    overflow: hidden;
+    padding: 0% 26.3%;
+}
+.boxone-area{
+    height: 150px;
+    width: 300px;
+    float: left
+}
+.boxtwo-area{
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+.boxthree-area{
+    height: 150px;
+    width: 300px;
+    float: left
+}
+.box-area p{
+    color: #747d8c;
+}
+.work-area{
+    background: rgb(35, 35, 46);
+}
+.work-area h3 {
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7%;
+}
+.work-area ul{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 30% 20px 30%;
+    font-size: 14px;
+    margin: 0;
+}
+.work-area ul li{
+    float: left;
+    padding: 0px 2%;
+    list-style: none;
+}
+.work-area ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.firstimagesection-area ul li{
+    float: left;
+    padding: 5px 10px;
+    list-style: none; 
+}
+.firstimagesection-area ul li img{
+    width: 100%;
+}
+.firstimagesection-area ul {
+    padding: 0px 24.77%;
+}
+.firstimagesection-area ul li:nth-child(3){
+    float: right;
+}
+.firstimagesection-area {
+    background: rgb(35, 35, 46);
+    overflow: hidden;
+}
+.firstsectionpara ul {
+    overflow: hidden;
+    background: rgb(35,35,46);
+    color: #ffffff;
+    margin: 0;
+    padding-top: 1%;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-left: 24%;
+}
+.firstsectionpara ul li {
+    float: left;
+    list-style: none; 
+    text-align: center;
+    padding: 0px 4%;
+}
+.secondimagesection-area ul li{
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+}
+.secondimagesection-area ul li img{
+    width: 100%;
+}
+.secondimagesection-area ul {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 24.77%;
+    margin: 0;
+}
+.secondimagesection-area {
+    background: rgb(35,35,46);
+}
+.secondsectionpara ul {
+    overflow: hidden;
+    background: rgb(35,35,46);
+    color: #ffffff;
+    margin: 0;
+    padding-top: 1%;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-left: 24%;
+}
+.secondsectionpara ul li {
+    float: left;
+    list-style: none; 
+    text-align: center;
+    padding: 0px 5.5%;
+}
+.box button {
+    text-align: center;
+    padding: 0 40px;
+    background: rgb(123,119,201);
+    color: #ffffff;
+    border-radius: 10px;
+}
+.box {
+    width: 100%;
+    background: rgb(35,35,46);
+    text-align: center;
+    padding: 2% 0 5% 0;
+}
+.thirdsectionheader-area h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 0;
+}
+.thirdsectionpara-area p {
+    text-align: center;
+    padding: 2% 30%;
+    font-size: 24px;
+    color: #3d3d3d;
+    margin: 0;
+}
+.thirdsectionimage-area ul li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+}
+.thirdsectionimage-area ul {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 24.77%;
+    margin: 0;
+}
+.secondbox button {
+    text-align: center;
+    padding: 0 10px;
+    background: rgb(123,119,201);
+    color: #ffffff;
+    border-radius: 7px;
+}
+.secondbox {
+    width: 100%;
+    text-align: center;
+    padding: 2% 0 5% 0;
+}
+.fourthsection-area{
+    background: rgb(35, 35, 46);
+}
+.fourthsectionimage-area{
+    text-align: center;
+    padding:7% 0 2% 0;
+}
+.fourthsectionpara-area{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 2% 41%;
+}
+.input-area{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.input-area input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+}
+.input-area:nth-child(1) p{
+    color: #bdc3c7;
+}
+.input-area button[type="submit"]{
+    height: 45px;
+    width: 200px;
+    background: rgb(123,119,201);
+    border-radius: 7px;
+}
+.copyright-area {
+    color: #3d3d3d;
+    text-align: center;
+    padding-top: 10%;
+}
+.madeby-area {
+    color: #3d3d3d;
+    text-align: center;
+}

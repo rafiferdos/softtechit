@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery UI</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jqueryv3.5.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <div class="baba">
+        <div class="chele">
+            <p>this box is moveable</p>
+        </div>
+    </div>
+
+    <div id="draggable" class="ui-widget-content">
+        <p>Drag me to my target</p>
+    </div>
+
+    <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+    </div>
+
+    <div class="resizeable">
+        <p>this is resizeable</p>
+    </div>
+
+    <ol id="selectable">
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+        <li class="ui-widget-content">all are selectable</li>
+    </ol>
+
+    <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+    <div class="accordion">
+        <h1>these are headings</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quidem odit aliquid nemo id tenetur officiis
+            illo in itaque similique quasi at, sapiente dignissimos voluptates vitae maiores, amet adipisci ipsum.</p>
+        <h1>these are headings</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quidem odit aliquid nemo id tenetur officiis
+            illo in itaque similique quasi at, sapiente dignissimos voluptates vitae maiores, amet adipisci ipsum.</p>
+        <h1>these are headings</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quidem odit aliquid nemo id tenetur officiis
+            illo in itaque similique quasi at, sapiente dignissimos voluptates vitae maiores, amet adipisci ipsum.</p>
+        <h1>these are headings</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quidem odit aliquid nemo id tenetur officiis
+            illo in itaque similique quasi at, sapiente dignissimos voluptates vitae maiores, amet adipisci ipsum.</p>
+        <h1>these are headings</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quidem odit aliquid nemo id tenetur officiis
+            illo in itaque similique quasi at, sapiente dignissimos voluptates vitae maiores, amet adipisci ipsum.</p>
+    </div>
+
+    <div class="input-jq">
+        <h1>here is the input type 'a'</h1>
+        <input type="text" class="input">
+    </div>
+
+    <div class="widget">
+        <h1>Widget Buttons</h1>
+        <button>A button element</button>
+
+        <input type="submit" value="A submit button">
+
+        <a href="#">An anchor</a>
+    </div>
+    <h1>CSS Buttons</h1>
+    <button class="ui-button ui-widget ui-corner-all">A button element</button>
+
+    <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+
+    <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+
+    <div class="widget">
+        <h1>Checkbox and radio button widgets</h1>
+
+        <h2>Radio Group</h2>
+        <fieldset>
+            <legend>Select a Location: </legend>
+            <label for="radio-1">New York</label>
+            <input type="radio" name="radio-1" id="radio-1">
+            <label for="radio-2">Paris</label>
+            <input type="radio" name="radio-1" id="radio-2">
+            <label for="radio-3">London</label>
+            <input type="radio" name="radio-1" id="radio-3">
+        </fieldset>
+
+        <h2>Checkbox</h2>
+        <fieldset>
+            <legend>Hotel Ratings: </legend>
+            <label for="checkbox-1">2 Star</label>
+            <input type="checkbox" name="checkbox-1" id="checkbox-1">
+            <label for="checkbox-2">3 Star</label>
+            <input type="checkbox" name="checkbox-2" id="checkbox-2">
+            <label for="checkbox-3">4 Star</label>
+            <input type="checkbox" name="checkbox-3" id="checkbox-3">
+            <label for="checkbox-4">5 Star</label>
+            <input type="checkbox" name="checkbox-4" id="checkbox-4">
+        </fieldset>
+
+        <h2>Checkbox nested in label</h2>
+        <fieldset>
+            <legend>Bed Type: </legend>
+            <label for="checkbox-nested-1">2 Double
+                <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+            </label>
+            <label for="checkbox-nested-2">2 Queen
+                <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+            </label>
+            <label for="checkbox-nested-3">1 Queen
+                <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+            </label>
+            <label for="checkbox-nested-4">1 King
+                <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+            </label>
+        </fieldset>
+    </div>
+
+    <p>Date: <input type="text" id="datepicker" size="30"></p>
+
+    <p>Animations:<br>
+        <select id="anim">
+            <option value="show">Show (default)</option>
+            <option value="slideDown">Slide down</option>
+            <option value="fadeIn">Fade in</option>
+            <option value="blind">Blind (UI Effect)</option>
+            <option value="bounce">Bounce (UI Effect)</option>
+            <option value="clip">Clip (UI Effect)</option>
+            <option value="drop">Drop (UI Effect)</option>
+            <option value="fold">Fold (UI Effect)</option>
+            <option value="slide">Slide (UI Effect)</option>
+            <option value="">None</option>
+        </select>
+    </p>
+
+    <div id="dialog" title="File Download">
+        <div class="progress-label">Starting download...</div>
+        <div id="progressbar"></div>
+    </div>
+    <button id="downloadButton">Start Download</button>
+    <ul id="menu">
+        <li>
+            <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+        </li>
+        <li>
+            <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+        </li>
+        <li>
+            <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+        </li>
+        <li class="ui-state-disabled">
+            <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+        </li>
+        <li>
+            <div>Playback</div>
+            <ul>
+                <li>
+                    <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+                </li>
+                <li>
+                    <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+                </li>
+                <li>
+                    <div><span class="ui-icon ui-icon-play"></span>Play</div>
+                </li>
+                <li>
+                    <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div>Learn more about this menu</div>
+        </li>
+    </ul>
+</body>
+
+</html>

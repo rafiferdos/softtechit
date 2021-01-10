@@ -1,0 +1,291 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.header-section{
+    overflow: hidden;
+    position: relative;
+}
+
+.header-section .logo-section{
+    display: none;
+}
+
+.header-section .header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-section .main-menu{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-menu ul li {
+    margin: 0 20px;
+}
+
+.main-menu ul li a {
+    text-transform: uppercase;
+    color: #4d4959;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.section {
+    background: #f7f7f7;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.section h2 {
+    color: #353738;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+
+.content{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+.section p {
+    color: #353738;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.big-small {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.small-big {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.big img {
+    width: 100%;
+    height: auto;
+}
+
+.small-image img {
+    width: 100%;
+    height: auto;
+}
+
+.section .big,
+.section .small {
+    padding: 0;
+    padding-right: 0;
+}
+
+.small-image {
+    background: url(images/vintage-bike-seat.jpg) no-repeat;
+    background-size: 100% auto;
+    min-height: 200px;
+    background-position: bottom left;
+}
+
+.small-description {
+    position: relative;
+}
+
+.small-description hr {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 2px solid #ccc;
+    width: 50px;
+}
+
+.small-description .content p::after {
+    content: ' ';
+    display: block;
+    margin: auto;
+    clear: both;
+    margin-top: 40px;
+    width: 50px;
+    height: 1px;
+    background: red;
+}
+
+.small-description::after{
+    content: ' ';
+    height: 0;
+    width: 0;
+    border-top: 10px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+}
+
+.second-logo-section {
+    position: absolute;
+    z-index: 9999;
+    top: 40%;
+    left: 0;
+    margin-top: -59px;
+    width: 100%;
+    text-align: center;
+}
+
+.second-logo-section img{
+    display: block;
+    width: 113px;
+    height: 118px;
+    margin: auto;
+}
+
+.equal {
+    max-height: 485px;
+    overflow: hidden;
+}
+
+tweet-section {
+    background: #f7f7f7;
+    padding: 100px 0;
+}
+
+.tweet-section .tweet-icon {
+    color: #56c7ef;
+    font-size: 35px;
+}
+
+.tweet-section h2 {
+    font-family: 'Lato' sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tweet-section h2 span {
+    font-size: 17px;
+    color: #ccc;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.tweet-section p {
+	font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    font-style: italic;
+}
+
+.discover-section {
+	text-align: center;
+	padding: 50px 0;
+	background: rgb(40,47,53);
+}
+
+.button {
+	padding: 10px 40px;
+	background: rgb(40,47,53);
+	border: 1px solid #fff;
+}
+
+.button:hover {
+	background: white;
+	border: 1px solid rgb(40,47,53);
+	transition: .3s;
+}
+
+.button a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.button a:hover {
+	color: rgb(40,47,53);
+}
+
+.subscribe-section {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.logo {
+	padding-bottom: 30px;
+}
+
+.para p{
+	font-style: italic;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	color: rgb(132,135,137);
+	padding-bottom: 15px;
+}
+
+#email{
+	padding: 15px 60px;
+	margin-right: 3px;
+}
+
+.button2 {
+	padding: 17px 30px;
+	background: rgb(100,194,158);
+	border: none;
+}
+
+.button2:hover {
+	background:  #00b894;
+	transition: .3s;
+}
+
+.button2 a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-section {
+	padding: 80px 0;
+	background: rgb(247,247,247);
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.fa-twitter{
+	border: 1px solid rgb(120,205,240);
+	padding: 7px;
+	border-radius: 50%;
+	background: rgb(120,205,240);
+	color: white;
+}
+
+.fa-facebook{
+	border: 1px solid rgb(83,123,189);
+	padding: 7px 10px;
+	border-radius: 50%;
+	background: rgb(83,123,189);
+	color: white;
+}
+
+.fa-pinterest{
+	border: 1px solid rgb(235,87,85);
+	padding: 7px 8px;
+	border-radius: 50%;
+	background: rgb(235,87,85);
+	color: white;
+}

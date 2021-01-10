@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-image: url(images/Banner.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+.header,
+h1 {
+    padding: 320px 0 0 25px;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.header,
+p {
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.nav-menu ul {
+    margin: 0;
+    width: 100%;
+}
+
+.nav-menu,
+ul li {
+    list-style: none;
+    float: left;
+    padding: 5px 25px;
+    color: #182C61;
+}
+
+.nav-menu,
+ul li a {
+    color: azure;
+    font-size: 18px;
+    padding: 5px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.nav-menu,
+ul li a:hover {
+    color: #25CCF7;
+    text-decoration: none;
+    font-size: 25px;
+}
+.active a {
+    font-size: 30px;
+}
+
+.main, 
+h2{
+    margin-top: 600px;
+    font-size: 35px;
+    padding-left: 25px;
+}
+
+.box {
+    height: 300px;
+    width: 480px;
+}
+.box img {
+    overflow: hidden;
+}

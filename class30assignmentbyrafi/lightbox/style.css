@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: #151515;
+	color: white;
+	text-align: center;
+}	
+
+a {
+	color: white; 
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 30px;
+	transition: .3s;
+}

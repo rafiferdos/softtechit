@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+.box {
+    height: 0;
+    width: 0;
+    border-bottom: 50px solid #000;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}

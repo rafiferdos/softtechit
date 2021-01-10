@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+}
+
+.human-face ul {
+ 	list-style:none; 
+ }
+
+.human-face ul li {
+	float: left;
+}
+
+.human-face ul li a {
+	display: block;
+	height: 150px;
+	width: 150px;
+	background: url(sprite-images/humans_600x300.jpeg);
+	transition: .7s;
+}
+
+.human-face ul .human-1 a {
+	background-position: 0 0;  
+}
+
+.human-face ul .human-1 a:hover {
+	background-position: 0 150px;  
+}
+
+.human-face ul .human-2 a {
+	background-position: 150px 0;  
+}
+
+.human-face ul .human-2 a:hover {
+	background-position: 150px 150px;  
+}
+
+.human-face ul .human-3 a {
+	background-position: 300px 0;  
+}
+
+.human-face ul .human-3 a:hover {
+	background-position: 300px 150px;  
+}
+
+.human-face ul .human-4 a {
+	background-position: 450px 0;  
+}
+
+.human-face ul .human-4 a:hover {
+	background-position: 450px 150px;  
+}
+

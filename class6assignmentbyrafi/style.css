@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+}
+.header-area {
+	background: #227093;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+.middle-area{
+	overflow: hidden;
+}
+.left {
+	width: 18%;
+	background: #22a6b3;
+	overflow: hidden; 
+	float: left;
+	padding-left: 2%; 
+	padding-bottom: 36%;
+}
+.left p {
+	margin: 5%;
+}
+.left h3 {
+	margin: 5%;
+}
+.article {
+	width: 54%;
+	background: #7ed6df;
+	overflow: hidden;
+	float: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 6%;
+}
+.article img {
+	margin: 5%;
+}
+.article p {
+	margin: 5%;
+}
+.article h3 {
+	margin: 5%;
+}
+.right {
+	width: 18%;
+	background: #22a6b3;
+	overflow: hidden; 
+	float: left;
+	padding-left: 2%;
+	padding-bottom: 36%;
+}
+.right p {
+	margin: 5%;
+}
+.right h3 {
+	margin: 5%;
+}
+.footer-area {
+	background: #1e272e; 
+	overflow: hidden;
+	color: white;
+}

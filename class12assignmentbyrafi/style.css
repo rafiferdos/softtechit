@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: #f1f2f6;
+}
+
+.main-menu {
+    background: #EA2027;
+}
+.main-menu:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+.main-menu ul {
+    margin: 0;
+    list-style: none;
+}
+.main-menu > ul > li {
+    float: left;
+    position: relative;
+}
+.main-menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    display: block;
+    padding: 15px 20px;
+}
+
+.main-menu ul li:hover a {
+    background: linear-gradient(#c23616,red);
+    
+}
+.main-menu ul .active a {
+    background: #1e272e;
+}
+
+/***** sub menu *****/
+
+.main-menu ul ul {
+    padding-left: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+    display: none;
+}
+.main-menu ul li:hover > ul {
+    display: block;
+}
+.main-menu ul ul li a:hover {
+    background: #ff5e57;
+}
+.main-menu ul ul li {
+    position: relative;
+}
+.main-menu ul ul ul {
+    left: 100%;
+    top: 0;
+    background: #d2dae2;
+}
+/***** line no. 63 er color apply holo na :( *****/

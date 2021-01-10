@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-section {
+	background: url(images/header-background.jpg);
+}
+
+.navbar {
+	background: transparent;
+	border: 0;
+	padding-right: 50px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: white;
+	transition: .3s;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+	font-size: large;
+}
+
+.heading-text.text-center {
+	padding: 200px 0 0 0;
+}
+
+.heading-text.text-center h1 {
+	color: white;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.header-para p {
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.button.text-center {
+	padding: 60px 0 120px 0;
+}
+
+.btn.btn-default {
+	background: rgb(232, 69, 69);
+	border: none;
+	border-radius: 0;
+	color: white;
+	padding: 10px 40px;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.container.container2 {
+	padding: 100px 0;
+}
+
+#row1 {
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+.container.container2 p {
+	font-size: 13px;
+}
+
+#small-row {
+	margin: 5px;
+}
+
+.people-section {
+	margin: 100px 0;
+}
+
+.thumbnail {
+	border: 0;
+}
+
+.col-md-3.col-sm-6.col-xs-12{
+	margin: 0;
+	padding: 0;
+}
+
+.col-md-3.col-sm-6.col-xs-12 p {
+	font-weight: 300;
+}
+
+.col-md-3.col-sm-6.col-xs-12 h3 {
+	font-weight: 400;
+}
+
+.red {
+	color: rgb(232, 69, 69);
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.pagination li a{
+	color: #b2bec3;
+}
+
+.col-md-6.col-sm-12.col-xs-12 {
+	padding: 0 0 100px 0;
+}
+
+.col-md-3.col-sm-6.col-xs-12.text.center {
+	padding: 0;
+}
+
+.location-share-about-section {
+	background: rgb(58, 62, 100);
+	color: white;
+	padding: 50px 0;
+}
+
+.location-share-about-section h5 {
+	font-weight: 600;
+}
+
+.location-share-about-section p {
+	font-weight: 300;
+}
+
+.fa.fa-facebook {
+	border: 2px solid white;
+	padding: 3px;
+}
+
+.fa.fa-twitter {
+	border: 2px solid white;
+	padding: 3px;
+}
+
+.fa.fa-linkedin {
+	border: 2px solid white;
+	padding: 3px;
+}
+
+.footer-section {
+	background: rgb(49, 52, 84);
+	padding: 15px 0;
+}
+
+.footer-section p {
+	color: #747d8c;
+	font-weight: 300;
+}
+
+.fa.fa-heart {
+	color: red;
+}
+
+.footer-section span {
+	color: white;
+}

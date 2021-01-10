@@ -1,0 +1,35 @@
+.header-section{
+    overflow: hidden;
+    position: relative;
+}
+
+.header-section .logo-section{
+    display: none;
+}
+
+.header-section .header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-section .main-menu{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-menu ul li {
+    margin: 0 20px;
+}
+
+.main-menu ul li a {
+    text-transform: uppercase;
+    color: #4d4959;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
